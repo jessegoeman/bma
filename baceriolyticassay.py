@@ -35,7 +35,7 @@ plt.legend(["A1 ("+str(simps(A1,x=timestamps).round(2))+")",
             "G4 - controle ("+str(simps(G4,x=timestamps).round(2))+")"],
            prop={'size': 8})
 plt.xlabel("Tijd (s)"), plt.ylabel("OD 640")
-plt.ylim([0.4, 0.9])
+#plt.ylim([0.4, 0.9])
 
 plt.subplot(3, 3, 2)
 plt.plot(timestamps, B1), plt.plot(timestamps, B2), plt.plot(timestamps, B3), plt.plot(timestamps, B4)
@@ -48,7 +48,7 @@ plt.legend(["B1 ("+str(simps(B1,x=timestamps).round(2))+")",
             "G4 - controle ("+str(simps(G4,x=timestamps).round(2))+")"],
            prop={'size': 8})
 plt.xlabel("Tijd (s)"), plt.ylabel("OD 640")
-plt.ylim([0.4, 0.9])
+#plt.ylim([0.4, 0.9])
 
 plt.subplot(3, 3, 3)
 plt.plot(timestamps, C1), plt.plot(timestamps, C2), plt.plot(timestamps, C3), plt.plot(timestamps, C4)
@@ -61,7 +61,7 @@ plt.legend(["C1 ("+str(simps(C1,x=timestamps).round(2))+")",
             "G4 - controle ("+str(simps(G4,x=timestamps).round(2))+")"],
            prop={'size': 8})
 plt.xlabel("Tijd (s)"), plt.ylabel("OD 640")
-plt.ylim([0.4, 0.9])
+#plt.ylim([0.4, 0.9])
 
 plt.subplot(3, 3, 4)
 plt.plot(timestamps, D1), plt.plot(timestamps, D2), plt.plot(timestamps, D3), plt.plot(timestamps, D4)
@@ -74,7 +74,7 @@ plt.legend(["D1 ("+str(simps(D1,x=timestamps).round(2))+")",
             "G4 - controle ("+str(simps(G4,x=timestamps).round(2))+")"],
            prop={'size': 8})
 plt.xlabel("Tijd (s)"), plt.ylabel("OD 640")
-plt.ylim([0.4, 0.9])
+#plt.ylim([0.4, 0.9])
 
 plt.subplot(3, 3, 5)
 plt.plot(timestamps, E1), plt.plot(timestamps, E2), plt.plot(timestamps, E3), plt.plot(timestamps, E4)
@@ -87,7 +87,7 @@ plt.legend(["E1 ("+str(simps(E1,x=timestamps).round(2))+")",
             "G4 - controle ("+str(simps(G4,x=timestamps).round(2))+")"],
            prop={'size': 8})
 plt.xlabel("Tijd (s)"), plt.ylabel("OD 640")
-plt.ylim([0.4, 0.9])
+#plt.ylim([0.4, 0.9])
 
 plt.subplot(3, 3, 6)
 plt.plot(timestamps, F1), plt.plot(timestamps, F2), plt.plot(timestamps, F3), plt.plot(timestamps, F4)
@@ -99,7 +99,7 @@ plt.legend(["F1 ("+str(simps(F1,x=timestamps).round(2))+")",
             "G4 - controle ("+str(simps(G4,x=timestamps).round(2))+")"],
            prop={'size': 8})
 plt.xlabel("Tijd (s)"), plt.ylabel("OD 640")
-plt.ylim([0.4, 0.9])
+#plt.ylim([0.4, 0.9])
 
 plt.subplot(3, 3, 7)
 plt.plot(timestamps, G1), plt.plot(timestamps, G2), plt.plot(timestamps, G3)
@@ -111,7 +111,7 @@ plt.legend(["G1 ("+str(simps(G1,x=timestamps).round(2))+")",
             "G4 - controle ("+str(simps(G4,x=timestamps).round(2))+")"],
            prop={'size': 8})
 plt.xlabel("Tijd (s)"), plt.ylabel("OD 640")
-plt.ylim([0.4, 0.9])
+#plt.ylim([0.4, 0.9])
 
 plt.subplot(3, 3, 8)
 plt.plot(timestamps, H1), plt.plot(timestamps, H2), plt.plot(timestamps, H3)
@@ -123,7 +123,7 @@ plt.legend(["H1 ("+str(simps(H1,x=timestamps).round(2))+")",
             "G4 - controle ("+str(simps(G4,x=timestamps).round(2))+")"],
            prop={'size': 8})
 plt.xlabel("Tijd (s)"), plt.ylabel("OD 640")
-plt.ylim([0.4, 0.9])
+#plt.ylim([0.4, 0.9])
 
 plt.subplot(3, 3, 9)
 plt.text(0,0.5,"in de legendes staan de oppervlaktes onder de curven")
